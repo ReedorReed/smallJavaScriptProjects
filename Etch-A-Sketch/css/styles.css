@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	max-height: 100vh;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+	max-width: 1500px;
+	background-image: url(/images/desk.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+#imgDiv {
+	position: absolute;
+	background-color: #fff;
+	height: 320px;
+	width: 360px;
+	top: 18rem;
+	left: 32.5rem;
+}
+
+#eAsBackground {
+	display: block;
+	position: absolute;
+	height: 450px;
+	width: 450px;
+	border-radius: 15px;
+	box-shadow: 2px 2px 15px #333;
+	top: -1rem;
+	left: -3rem;
+	z-index: 5;
+}
+
+#game-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+	width: 320px;
+	height: 268px;
+	/* border: 1px solid black; */
+	position: relative;
+	top: 19.5rem;
+	left: -10.1rem;
+	z-index: 7;
+}
+
+.draw {
+	height: 16px;
+	width: 16px;
+	background-color: #ffffff;
+	/* border: 1px solid black; */
+	z-index: 7;
+}
+
+#reset-board {
+	position: absolute;
+	top: 40rem;
+	left: 41rem;
+	height: 30px;
+	width: 100px;
+	color: #fff;
+	background-color: #ff0000;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	z-index: 7;
+}
+
+#reset-board:hover {
+	background-color: #fff;
+	color: #ff0000;
+}
+
+h1 {
+	text-align: center;
+	font-size: 22px;
+	font-family: monospace;
+	padding: 8px 0;
+	color: #333;
+	position: relative;
+	z-index: 6;
+	left: 6.5rem;
+	top: 15.5rem;
+}
