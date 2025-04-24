@@ -36,3 +36,27 @@ for (let i = 0; i < colors.length; i++) {
 }
 colors.push('turkis');
 console.log(colors);
+
+
+//For loop that creates a triangle of "#"
+let triangle = "";
+for (let i = 0; i <= 7; i++) {
+	triangle = triangle += "#";
+	console.log(triangle);
+}
+
+
+
+for (let numbers = 0; numbers <= 100; numbers++) {
+	
+	if (numbers % 3) {
+		console.log("Fizz");
+	} else if (numbers % 5) {
+		console.log('Buzz');
+	} else if ((numbers % 3) && (numbers % 5)) {
+		console.log("FizzBuzz");
+	}
+	
+	console.log(numbers);
+	break;
+}
